@@ -1,0 +1,112 @@
+/* pagination css for width 990px */
+.text-aligin-center {
+    text-align:center;
+}
+
+.qc-list-pagination {
+    height:80px;
+    clear:both;
+    overflow:hidden;
+}
+.qc-list-pagination .qc-pagination {
+    margin:28px 0 0 0;
+}
+.qc-pagination {
+    margin:10px;
+    clear:both;
+    overflow:hidden;
+    text-align:center;
+}
+.qc-pagination span.more-page ,
+.qc-pagination span.current{
+    margin-right: 5px;
+}
+.qc-pagination .page-skip button,
+.qc-pagination a{
+    border: 1px solid #e1e1e1;
+    color: #737373;
+    display: inline-block;
+    padding: 2px 9px;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 5px;
+    background:#fff;
+}
+.qc-pagination .current{
+    border:0;
+    background:#d12f12;
+    color:#fff;
+    padding: 5px 9px;
+}
+.qc-pagination a:hover{
+    border: 1px solid #f9b9af;
+    color: #b11200;
+    filter:none;
+    background:#fff2f0;
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    *display: inline;
+    *zoom:1;
+}
+
+.qc-pagination .page-skip {
+    text-align:right;
+    color:#000;
+}
+
+.qc-pagination .page-skip input {
+    border:1px solid #949494;
+    vertical-align:middle;
+    margin:0 3px;
+    width:39px;
+    height:23px;
+		*line-height:23px;
+    text-align: center;
+    color: #b11200;
+}
+.qc-pagination .page-skip button {
+    vertical-align:middle;
+    background-color:#fff;
+    border:1px solid #e1e1e1;
+    color:#000;
+    padding:1px 8px;
+    margin-left: 2px;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.qc-pagination .next-page {position: relative;}
+.qc-pagination .prev-page {position: relative;}
+.qc-pagination .next-page i{
+    height:0;
+    width:0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    border-color:transparent  transparent transparent #9985b3;
+    border-style:   dashed dashed dashed solid;
+    border-width:5px;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+}
+.qc-pagination .prev-page i{
+    height:0;
+    width:0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    border-color:transparent #9985b3 transparent transparent ;
+    border-style:  dashed solid dashed dashed ;
+    border-width:5px;
+    position: absolute;
+    top: 5px;
+    left: 2px;
+}
+.qc-pagination .prev-page:hover i {
+    border-color:transparent  #fff transparent transparent;
+}
+.qc-pagination .next-page:hover i{
+    border-color:transparent  transparent transparent #fff;
+}

@@ -1,0 +1,15 @@
+{
+    "name": "pagenation",
+    "version": "1.0",
+    "desc": "分页模块",
+    "tag": [
+        "清仓分页"
+    ],
+    site:"qing",
+    width:"990",
+    "cover": "",
+    "author": {
+        "name": "qiyou.xj",
+        "email": "qiyou.xj@taobao.com"
+    }
+}
